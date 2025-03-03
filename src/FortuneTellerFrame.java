@@ -51,7 +51,6 @@ public class FortuneTellerFrame extends JFrame {
                 } else {
                     fortuneDisplay.append("\n" + getFortune(roll));
                 }
-                System.out.println(roll);
                 lastRoll = roll;
             }
         });
